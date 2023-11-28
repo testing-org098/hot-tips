@@ -32,7 +32,7 @@ async function getLastModifiedFile(fileGlob: string) {
   return filesWithStats.at(0);
 }
 
-process.env.BROWSER = 'Firefox Developer Edition';
+// process.env.BROWSER = 'Firefox Developer Edition';
 
 export default defineConfig(async () => {
 
